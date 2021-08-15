@@ -1,0 +1,19 @@
+/* body section */
+.row_i {
+    width: 24%;
+    margin-top: 72px;
+    float: left;
+    margin-left: 8px;
+    height: 229px;
+}
+img{
+    height: 89%;
+    width: 100%;
+    cursor: pointer;
+}
+.row_i>a {
+    text-align: center;
+    display: block;
+    background: rgb(204, 200, 200);
+    color: red;
+}

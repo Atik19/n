@@ -1,0 +1,12 @@
+.video_box {
+    width: 24%;
+    height: 213px;
+    background: rgba(214, 210, 210, 0.39);
+    float: left;
+    margin-top: 75px;
+    margin-left: 9px;
+}
+.video_box>video {
+    height: 100%;
+    width: 100%;
+}

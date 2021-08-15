@@ -1,0 +1,155 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: blue;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+.wapper_all{
+    width: 100%;
+
+}
+.wapper{
+    width: 85%;
+    margin: auto;
+}
+
+            /*header section  strad */
+.nav_bg{
+    background: rgba(0, 0, 0, 0.096);
+    position: fixed;
+}
+.fab.fa-facebook-f {
+    position: absolute;
+    right: 0;
+    font-size: 42px;
+    top: 15px;
+    display: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 6px 9px;
+    box-sizing: border-box;
+    color: #00f;
+}
+.menuber{
+    overflow:hidden ;
+}
+.menuber>span>a{
+    font-size: 55px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+.menuber>ul{
+    width: 50%;
+    height: auto;
+    float: right;
+    overflow: hidden;
+    padding: 10px;
+}
+.menuber>ul>li{
+    float: left;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.menuber>ul>li>a{
+    padding: 5px 18px;
+    background: rgba(99, 0, 0, 0.233);
+    margin: 8px;
+    border-radius: 6px;
+    color: #fff;
+    transition: all linear 0.5s;
+}
+.menuber>ul>li>a:hover{
+    background: rgba(2, 2, 241, 0.226);
+    color:black;
+}
+            /*header section  end*/
+
+            /* body section stard */
+.body>.row{
+    width: 48%;
+    float: left;
+    margin-left:3px ;
+}
+.row>h1 {
+    text-align: center;
+    font-size: 65px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 120px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.row>.log0_image {
+    background: black;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: auto;
+    margin-top: -44px;
+    border-radius: 50%;
+}
+.log0_image>a>.logo_d {
+    font-size: 5pc;
+    background: #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 13px 28px;
+    color: #00f;
+    font-weight: bold;
+}
+form>.np_all{
+    height: 38px;
+    width: 354px;
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 13px;
+    border-radius: 4px;
+    border: 0px;
+    background: #f2efef;
+    padding: 3px 11px;
+    font-size: 19px;
+    text-transform: lowercase;
+    outline: 0px;
+    color: #000000;
+}
+form>.all_btn{
+    width: 34%;
+    height: 43px;
+    margin-bottom: 46px;
+    border-radius: 4px;
+    font-size: 21px;
+    color: #fff;
+    background: #0a0a0a75;
+    border: 0px;
+    transition: all linear 0.3s;
+}
+form>.all_btn:hover{
+    background: rgba(128, 255, 0, 0.795);
+}
+form>.sig>a{
+    color: #fff;
+    padding: 6px 60px;
+}
+
+form>.log {
+    margin-left: 85px;
+}
+            /* body section end */
+
+            /* footter section strad */
+
+.fottr> a {
+    margin-left: 106px;
+    color: #fff;
+    font-size: 18px;
+}
+            /* footter section end */

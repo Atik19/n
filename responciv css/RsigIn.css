@@ -1,0 +1,39 @@
+@media screen and (max-width:576px) {
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+    /* body section  strad */
+.row_all >.Rrow_s {
+    top: 15px;
+}
+.Rinput_all {
+    margin-left: 2px;
+    margin-top: 0px;
+}
+form > .input_2 {
+    margin-top: 0;
+    margin-left: 0;
+}
+    /* body section  end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

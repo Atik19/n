@@ -1,0 +1,67 @@
+@media screen and (max-width:576px) {
+
+                /*header section  strad */
+.fab.fa-facebook-f {
+    display: inline;
+    cursor: pointer;
+    background: #fff;
+}                
+.menuber>span{
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+}
+.menuber>span>a{
+    text-transform: uppercase;
+}
+.menuber > ul {
+    background: #7fff169d;
+    width:0;
+    padding: 10px;
+    position: absolute;
+    opacity: 0;
+    visibility:collapse;
+    right: 0;
+    top: 64px;
+    transition: all linear 0.4s;
+}
+.menuber > ul > li {
+    float: none;
+    border: 1px solid black;
+    margin-top: 18px;
+    padding: 10px 10px; 
+    transition: all linear 0.3s;
+}
+.menuber > ul > li:hover{
+    background: rgb(0, 4, 252);
+}
+.menuber > ul > li > a {
+    background: none;
+    border-radius: 0;
+}
+.menuber > ul > li > a:hover{
+    background: none;
+    color: #fff;
+}
+
+/*header section  end*/
+
+/*body section  stard*/
+
+.body > .row {
+    float: none;
+    margin-left: 3px;
+    overflow: hidden;
+    width: 98%;
+}
+form > .log {
+    margin-left: 60px;
+}
+form>.sig>a{
+    padding: 0 1px;
+    color: #fff;
+}
+/*body section  end*/
+
+
+}

@@ -1,0 +1,289 @@
+body{
+    position: relative;
+}
+/* right selaid stard */
+.nav_btn {
+    right: 0px;
+    margin-top: 71px;
+    font-size: 26px;
+    cursor: pointer;
+    z-index: 100;
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 12px;
+    color: blue;
+}
+.right_selide {
+    float: right;
+    width: 0%;
+    background: #0b0b0bfd;
+    height: auto;
+    padding: 10px 14px;
+    margin-top: 69px;
+    right: 0px;
+    box-sizing: border-box;
+    transition: all linear 0.1s;
+    overflow: hidden;
+    opacity: 0;
+    position:absolute;
+    z-index: 100;
+}
+.right_selide>.cloge_btn {
+    left: 5px;
+    top: -55px;
+    color: black;
+    text-shadow: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background:none;
+    position: absolute;
+}
+.right_selide>.user_img {
+    height: 120px;
+    width: 120px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 18px;
+    margin-bottom: 22px
+}
+.user_img>img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.right_selide>.all_span {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 16px;
+    width: 116px;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+.right_selide>.user_all.about_me {
+    font-size: 13px;
+    text-align: justify;
+    color: lime;
+}
+.right_selide>.user_all {
+    margin-left: 118px;
+    margin-top: -22px;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #c6efff;
+    float: left;
+}
+.right_selide>.user_all.names {
+    font-size: 20px;
+    color: #fff;
+}
+.right_selide>hr {
+    background: white;
+    float: left;
+    width: 100%;
+    height: 1px;
+}
+.right_selide>.link_icon {
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.link_icon>.link {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-top: 13px;
+    float: left;
+    margin-left: 13px;
+}
+.link > a > .fab {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: #fff;
+    box-sizing: border-box;
+    font-size: 17px;
+    padding: 9px 8px;
+    font-weight: bold;
+    color: blue;
+    transition: all linear 0.3s;
+}
+.link > a > .fab:hover{
+    background: blue;
+    color: #fff;
+    transform: rotateY(180deg);
+}
+.link_icon>a{
+    color: #f40000;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 16px;
+    background: #0000001c;
+    text-decoration: underline;
+    margin: 9% 3%;
+    position: absolute;
+}
+/* right selaid end */
+
+/* left selider strad */
+.left_selaider {
+    width: 20%;
+    float: left;
+    margin-top: 69px;
+    background: #9558587d;
+    height: auto;
+    border: 4px solid #f0f;
+    box-sizing: border-box;
+    padding: 7px;
+}
+.left_selaider>h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffe406;
+    font-size: 43px;
+    margin-top: 5px;
+}
+.left_selaider>.search {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    border: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-right: 36px;
+    background: #fbfbfb8f;
+    border-radius: 5px;
+}
+.left_selaider>.imgesAll {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.imgesAll>.img {
+    height: 50px;
+    width: 50px;
+    margin: 7px;
+    border-radius: 50%;
+}
+.img>a>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.imgesAll>.namse {
+    color: black;
+    width: 80%;
+    float: right;
+    margin: -41px -15px;
+    font-size: 22px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+/* left selider end */
+
+/*  post section stard- */
+.post_box {
+    margin-top: 69px;
+    width: 978px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    background: #c86969;
+    position: absolute;
+    margin-left: 167px;
+}
+.post_box>.userImage {
+    display: inline;
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50%;
+    margin: -3px -65px;
+    cursor: pointer;
+}
+.userImage>a>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.post_box>.post_text {
+    text-transform: capitalize;
+    font-size: 25px;
+    color: rgb(5, 5, 5);
+}
+
+.post_box>.post {
+    height: 43px;
+    width: 375px;
+    margin-left: 10px;
+    border-radius: 6px 0px 0px 6px;
+    border: 0px;
+    outline: 0px;
+    background: #f2e5e5;
+    box-sizing: border-box;
+    padding: 9px;
+    font-size: 19px;
+}
+
+.post_box>.post_btn {
+    height: 43px;
+    width: 47px;
+    border-radius: 0px 6px 6px 0px;
+    background: #f2e5e5;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 21px;
+    text-transform: capitalize;
+    color: #ff008f;
+    padding: 1px;
+}
+
+.pos_in_box {
+    position: absolute;
+    top: 132px;
+    left: 270px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 978px;
+}
+
+.pos_in_box>p {
+    color: black;
+    font-size: 20px;
+    background: #fff;
+    height: auto;
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.pos_in_box>p>div {
+    margin-top: 40px;
+    float: right;
+    height: 23px;
+    padding: 3px 14px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 5px;
+    background: #1010ff;
+    color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+} 
+
+/*  post section end- */

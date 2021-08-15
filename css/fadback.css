@@ -1,0 +1,66 @@
+/* body section */
+.contact_box {
+    width: 60%;
+    margin: 178px 247px;
+    float: right;
+}
+form>input {
+    width: 49%;
+    height: 49px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    font-size: 22px;
+    border-radius: 3px;
+    border: 0px;
+    outline: 0px;
+    margin-bottom: 42px;
+    background: #0000003b;
+    color:#fff;
+}
+form>textarea {
+    width: 99%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 0px;
+    outline: 0px;
+    height: 218px;
+    padding: 10px;
+    font-size: 19px;
+    background: #0000003b;
+    color: #fff;
+    text-transform: capitalize;
+    
+}
+form>button {
+    width: 49%;
+    height: 48px;
+    margin: 19px 218px;
+    background: #0202024f;
+    border-radius: 5px;
+    font-size: 21px;
+    text-transform: capitalize;
+    color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+}
+form>button:hover{
+    background: rgba(10, 10, 10, 0.438);
+}
+
+
+
+
+
+
+/* nomanu pore delete korte hobe */
+
+#outFutNomana {
+    position: absolute;
+    width: 1000%;
+    background: #fff;
+    bottom: -514px;
+    padding: 10px;
+        padding-left: 10px;
+    padding-left: 135px;
+    box-sizing: border-box;
+}
